@@ -6,7 +6,7 @@
 /*   By: ydahni <ydahni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 20:42:39 by ydahni            #+#    #+#             */
-/*   Updated: 2021/12/03 16:22:02 by ydahni           ###   ########.fr       */
+/*   Updated: 2021/12/04 16:14:07 by ydahni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ char	*ft_strjoin(char *s1, char *s2)
 
 	a = ft_strlen(s1);
 	b = ft_strlen(s2);
-	new = malloc ((a + b + 1) * sizeof(char));
+	new = malloc (a + b + 1);
 	if (!new)
 		return (NULL);
 	i = 0;
